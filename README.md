@@ -25,16 +25,16 @@ Housing prices are influenced by a myriad of factors, from square footage to loc
 | sqft_lot      | Square footage of the lot                     |        Y
 | floors        | Total floors (levels) in house                |        Y  
 | waterfront    | House with a view to a waterfront             |        Y
-| view          | Has been viewed                               |        Y
+| view          | Has been viewed                               |        N
 | condition     | Overall condition of the house                |        Y
 | grade         | Overall grade given to the housing unit       |        Y  
-| sqft_above    | Square footage of house apart from basement   |        Y
+| sqft_above    | Square footage of house apart from basement   |        N
 | sqft_bmnt     | Square footage of the basement                |        Y
 | yr_built      | Built year                                    |        Y
 | yr_renov      | Year when house was renovated                 |        Y
 | zipcode       | Zip code                                      |        Y
-| lat           | Latitude coordinate                           |        Y
-| long          | Longitude coordinate                          |        Y
+| lat           | Latitude coordinate                           |        N
+| long          | Longitude coordinate                          |        N
 | sqft_l15      | Living room area in 2015 (some renovations)   |        Y
 | sqft_lt15     | Lot size area in 2015 (some renovations)      |        Y
 
